@@ -11,11 +11,11 @@ import random
 
 while True:
     
-    pyautogui.moveTo(1229,918)      #outer click
+    pyautogui.moveTo(1451,919)      #outer click2
     time.sleep(0.5)
     pyautogui.click(button='left', clicks=1, interval=0.50)
 
-    pyautogui.moveTo(525,781)       #inner click
+    pyautogui.moveTo(631,786)       #inner click2
     time.sleep(1)
     pyautogui.click(button='left', clicks=1, interval=0.50)
 
@@ -46,10 +46,6 @@ while True:
 #x=525
 #y=781
 
-#backspace
-#x=25
-#y=50
-
 #outer_join2
 #x=1451
 #y=919
@@ -57,6 +53,10 @@ while True:
 #inner_join2
 #x=631
 #y=786
+
+#backspace
+#x=25
+#y=50
 
 #refresh
 #x=87
