@@ -1,6 +1,6 @@
 #screen size:1920x1080
 #zoom=75
-#kv
+#for SMALL giveaway bot
 
 import pyautogui 
 import time 
@@ -31,7 +31,7 @@ while True:
     pyautogui.click(button='left', clicks=1, interval=0.50)
     
 
-    time.sleep(25)                  #wait for giveaway
+    time.sleep(30)                  #wait for giveaway
 
 
     pyautogui.moveTo(87,60)         #refresh page
