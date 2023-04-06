@@ -1,6 +1,6 @@
 #screen size:1920x1080
 #zoom=75
-#for SMALL giveaway bot
+#for small giveaway bot
 
 import pyautogui 
 import time 
