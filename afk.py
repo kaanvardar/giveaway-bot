@@ -1,5 +1,6 @@
 #screen size:1920x1080
 #zoom=75
+ 
 
 import pyautogui 
 import time 
