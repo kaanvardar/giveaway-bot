@@ -16,7 +16,7 @@ joined_giveaway = 0
 while (infinite_counter < 2):
 
     pyautogui.moveTo(1451,919)      #outer click
-    time.sleep(0.5)
+    time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
     click_counter +=1
     
