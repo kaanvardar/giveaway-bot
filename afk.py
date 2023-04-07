@@ -41,7 +41,7 @@ while (infinite_counter < 2):
     pyautogui.click(button='left', clicks=1, interval=2)
     click_counter +=1
     
-    time.sleep(3)                  #wait for giveaway
+    time.sleep(25)                  #wait for giveaway
     
     pyautogui.moveTo(87,60)         #refresh page
     time.sleep(3)
