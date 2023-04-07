@@ -2,7 +2,7 @@
 #set screen size:1920x1080
 #set zoom=75
 
-
+import sys
 import pyautogui 
 import time 
 import random
@@ -21,7 +21,7 @@ while (infinite_counter < 2):
     click_counter +=1
     
     pyautogui.moveTo(631,786)       #inner click
-    time.sleep(1)
+    time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
     click_counter +=1
     
@@ -38,29 +38,20 @@ while (infinite_counter < 2):
     click_counter+=1
     
     pyautogui.moveTo(87,60)         #refresh page
-    pyautogui.click(button='left', clicks=1, interval=0.50)
+    pyautogui.click(button='left', clicks=1, interval=2)
     click_counter +=1
     
-    time.sleep(25)                  #wait for giveaway
+    time.sleep(3)                  #wait for giveaway
     
     pyautogui.moveTo(87,60)         #refresh page
     time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
     click_counter +=1
-    
-    if click_counter == 5:
-       joined_giveaway += 1
-        
+    joined_giveaway = click_counter / 6
 
-print('Joined Giveaway is: ' + joined_giveaway)
+    result = 'joined giveaway is: ' +str(joined_giveaway)
+    print(result)
 
-#outer_join
-#x=1229
-#y=918
-
-#inner_join
-#x=525
-#y=781
 
 #go to site
 #x=421
