@@ -1,6 +1,7 @@
 #to do task initially
 #set screen size:1920x1080
 #set zoom=75
+#472 12/04/2023
 
 import sys
 import pyautogui 
@@ -23,6 +24,8 @@ while (infinite_counter < 2):
     pyautogui.moveTo(631,786)       #inner click
     time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
+    time.sleep(10)                   #second inner clock for 10s warning
+    pyautogui.click(button='left', clicks=1, interval=0.50)    
     click_counter +=1
     
     pyautogui.moveTo(424,857)       #not robot
@@ -41,7 +44,7 @@ while (infinite_counter < 2):
     pyautogui.click(button='left', clicks=1, interval=2)
     click_counter +=1
     
-    time.sleep(25)                  #wait for giveaway
+    time.sleep(20)                  #wait for giveaway
     
     pyautogui.moveTo(87,60)         #refresh page
     time.sleep(3)
