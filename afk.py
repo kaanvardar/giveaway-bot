@@ -24,7 +24,7 @@ while (infinite_counter < 2):
     pyautogui.moveTo(631,786)       #inner click
     time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
-    time.sleep(10)                   #second inner clock for 10s warning
+    time.sleep(11)                   #second inner clock for 10s warning
     pyautogui.click(button='left', clicks=1, interval=0.50)    
     click_counter +=1
     
@@ -32,7 +32,9 @@ while (infinite_counter < 2):
     time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
     click_counter +=1
-    
+
+    time.sleep(11)                 #third inner clock for 10s warning
+
     pyautogui.moveTo(421,52)       #go to site
     #time.sleep(3)
     pyautogui.click(button='left', clicks=1, interval=0.50)
@@ -44,7 +46,7 @@ while (infinite_counter < 2):
     pyautogui.click(button='left', clicks=1, interval=2)
     click_counter +=1
     
-    time.sleep(20)                  #wait for giveaway
+    time.sleep(30)                  #wait for giveaway
     
     pyautogui.moveTo(87,60)         #refresh page
     time.sleep(3)
