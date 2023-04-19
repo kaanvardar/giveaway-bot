@@ -1,7 +1,7 @@
 #to do task initially
 #set screen size:1920x1080
-#set zoom=75
-#472 12/04/2023
+#set zoom=%75
+#google chrome only!
 
 import sys
 import pyautogui 
@@ -58,6 +58,10 @@ while (infinite_counter < 2):
     print(result)
 
 
+#outer join big 
+#x=1225
+#y=845
+
 #go to site
 #x=421
 #y=52
@@ -71,10 +75,18 @@ while (infinite_counter < 2):
 #x=631
 #y=786
 
-#refresh
+#refresh chrome
 #x=87
 #y=60
 
-#not robot
+#refresh opera
+#x=125
+#y=50
+
+#not robot chrome
 #x=424
 #y=857
+
+#not robot opera
+#x=445
+#y=845
