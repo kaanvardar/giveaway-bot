@@ -4,5 +4,3 @@
 For further info and development 
 contact me:*kaanvaardar@gmail.com* 
 
-## - Efficency: 25 per night 06.04.2023
-## - Efficency: 72 per night 08.04.2023
